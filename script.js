@@ -4,6 +4,8 @@ $(document).ready(function () {
     $('.right-curtain').css('width', '0%');
 
     $('.valentines-day').click(function () {
+        var audio = new Audio('fondo.mp3');
+        audio.play();
         // Animación de desvanecimiento de los elementos del sobre
         $('.envelope').css({ 'animation': 'fall 3s linear 1', '-webkit-animation': 'fall 3s linear 1' });
         $('.envelope').fadeOut(800, function () {
@@ -54,3 +56,4 @@ window.onload = function () {
 
     setInterval(loadImage, 4000); // Change image every 4 seconds
 };
+

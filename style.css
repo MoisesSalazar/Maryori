@@ -11,7 +11,7 @@ body {
     width: 800px;
     margin: 5em auto;
     position: fixed;
-    top: -15px;
+    top: 30%;
     left: 25%;
     display: flex;
     visibility: hidden;
@@ -25,7 +25,7 @@ body {
 }
 
 #card p {
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: justify;
     padding-left: 30px;
     /* Espacio en blanco a la izquierda */
@@ -36,14 +36,14 @@ body {
 
 .side {
     background: #eee;
-    height: 550px;
+    height: 750px;
     width: 400px;
     /*    border:1px solid red; */
     padding: 10px;
 }
 
 .side.one {
-    width: 320px;
+    width: 130px;
     transform: skew(10deg, 20deg);
     background: linear-gradient(90deg, #fff, #fff 40%, #ddd);
 }
